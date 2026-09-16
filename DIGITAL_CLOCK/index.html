@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Klokke</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div id="time">
+
+            <!-- Timer -->
             <div class="circle" style="--color: #ff2972">
                 <div class="dots h_dot"></div>
                 <svg>
@@ -19,17 +21,32 @@
                 </svg>
                 <div id="hours">00</div>
             </div>
+
+            <!-- Minutter -->
             <div class="circle" style="--color: #fee800">
                 <div class="dots m_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+                <div id="minutes">00</div>
+            </div>
+
+            <!-- Sekunder -->
+            <div class="circle" style="--color: #00ff75">
+                <div class="dots s_dot"></div>
                 <svg>
                     <circle cx="70" cy="70" r="70"></circle>
                     <circle cx="70" cy="70" r="70" id="ss"></circle>
                 </svg>
                 <div id="seconds">00</div>
             </div>
+
+            <!-- AM/PM -->
             <div class="ap">
                 <div id="ampm">AM</div>
             </div>
+
         </div>
     </div>
 </body>

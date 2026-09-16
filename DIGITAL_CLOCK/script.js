@@ -22,8 +22,10 @@ setInterval(()=>{
     let ap = h >= 12 ? 'PM' : 'AM';
 
     // convert to 12 hours format
-    if(h>12){
-        h = h - 12;
+    if(h > 12){
+    h = h - 12;
+    } else if(h === 0){
+    h = 12;
     }
 
     // add 0 before single digit
