@@ -1,1 +1,7 @@
 # Javascript
+## Øving på JS
+
+- DIGITAL_CLOCK
+- EASY_TIP_CALCULATOR
+- MONOPOLY_BOARD_UI
+- SPORTS_TRIVIA
