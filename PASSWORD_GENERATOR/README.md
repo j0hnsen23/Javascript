@@ -4,8 +4,8 @@ En enkel passordgenerator laget i JavaScript som lager tilfeldige og sikre passo
 
 ## Funksjoner
 - Velg lengde på passordet
-- [Inkluder store/små bokstaver, tall og spesialtegn – fjern det som ikke stemmer]
-- Kopier passordet med ett klikk [fjern hvis den ikke har dette]
+- [Inkluder store/små bokstaver, tall og spesialtegn
+- Kopier passordet med ett klikk 
 
 ## Teknologier
 - JavaScript
